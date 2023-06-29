@@ -2,7 +2,7 @@
 let salir = true;
 let respuesta;
 let textoAlimentosRicos = "Alimentos ricos en vitamina ";
-let listaAlimentos = inizializoArrayAlimentos();
+let listaAlimentos = inicializoArrayAlimentos();
 
 
 while (salir === true) {
@@ -42,7 +42,7 @@ function queAlimentosTienenXVitamina(vit) {
     }
 }
 
-function inizializoArrayAlimentos() {
+function inicializoArrayAlimentos() {
     let caloriasPorCienGramos = new Array(2);
     caloriasPorCienGramos[0] = new Array(2);
     caloriasPorCienGramos[1] = new Array(2);
